@@ -1,2 +1,65 @@
-# ProjectDataAnalyst-Malha de Transporte Aereo
- Malha de Transporte Aéreo: Otimização de Rotas Aéreas  Este projeto tem como foco o desenvolvimento de uma solução baseada em grafos para otimizar a malha de transporte aéreo de um país ou região. Utilizando conceitos avançados de grafos, ele representa aeroportos como nós e rotas aéreas como arestas ponderadas. Os pesos das arestas podem variar de acordo com diferentes critérios, como distância geográfica, tempo de voo, custo ou consumo de combustível, possibilitando análises variadas e personalizadas.  Objetivos Principais Modelagem: Representar os aeroportos e rotas aéreas como um grafo ponderado para fácil manipulação e análise. Algoritmos de Otimização: Implementar algoritmos de busca como Dijkstra (rota mais curta) e A* (rota com menor custo). Escalabilidade: Garantir que a solução funcione eficientemente mesmo com grandes conjuntos de aeroportos e rotas. Aplicações Práticas Planejamento de Rotas: Auxiliar no planejamento de rotas comerciais e de carga para empresas aéreas. Redução de Custos: Identificar trajetos mais econômicos e eficientes. Gestão de Contingências: Facilitar a gestão de atrasos e o redirecionamento de voos, otimizando o uso da malha aérea. Tecnologias Utilizadas Python: Linguagem base para todo o projeto. NetworkX: Modelagem e manipulação de grafos. Geopy: Cálculo de distâncias geográficas entre aeroportos. Matplotlib: Visualização gráfica da malha aérea. Streamlit: Desenvolvimento de uma interface intuitiva para interagir com os resultados. Impacto e Diferenciais Este projeto oferece uma solução robusta e escalável para os desafios de planejamento e gestão no setor aéreo. Além disso, combina modelagem de grafos com visualizações interativas para tornar a análise de dados mais acessível e prática, sendo aplicável em contextos comerciais e operacionais.
+# ✈️ **Malha de Transporte Aéreo: Otimização de Rotas Aéreas**
+
+## **📋 Descrição Geral**
+Este projeto foi desenvolvido com o objetivo de **modelar e otimizar a malha de transporte aéreo**, utilizando a teoria dos grafos para representar:  
+- **Aeroportos**: nós do grafo.  
+- **Rotas aéreas**: arestas ponderadas com base em critérios como distância, tempo de voo, custo ou consumo de combustível.  
+
+O modelo permite **análises estruturadas** da malha aérea, oferecendo soluções escaláveis e práticas para problemas reais.
+
+---
+
+## **🎯 Objetivos Alcançados**
+- 🗺️ **Modelagem de Grafos**  
+  Representação dos aeroportos e rotas aéreas como um **grafo ponderado**, baseando-se em métricas ajustáveis para diferentes análises.  
+- ⚙️ **Algoritmos de Busca**  
+  - **Dijkstra**: Para encontrar a **rota mais curta** entre dois aeroportos.  
+  - **A***: Para determinar a **rota de menor custo**, considerando critérios mais complexos.  
+- 🔄 **Escalabilidade**  
+  Suporte para grandes conjuntos de aeroportos e rotas, permitindo aplicação em redes extensas e densas.
+
+---
+
+## **🔗 Aplicações**
+### 🚀 **Planejamento Estratégico**
+- Identificação de **rotas mais econômicas e eficientes**, contribuindo para a **redução de custos operacionais** em companhias aéreas.
+  
+### 📊 **Gestão de Fluxos Aéreos**
+- Otimização de **redirecionamentos e atrasos**.  
+- Planejamento adaptativo para redes aéreas complexas.
+
+### 📈 **Análises Operacionais**
+- Ferramenta para tomadas de decisão no planejamento de voos diários, especialmente em rotas densas ou congestionadas.
+
+---
+
+## **💻 Tecnologias Utilizadas**
+- **Python**: Linguagem base para implementação.  
+  - 📦 **NetworkX**: Modelagem e manipulação de grafos.  
+  - 🌍 **Geopy**: Cálculo das distâncias geográficas entre aeroportos.  
+  - 📊 **Matplotlib**: Visualização da malha aérea com gráficos interativos.  
+  - 🌟 **Streamlit**: Interface amigável e interativa para simulação de rotas, permitindo que usuários explorem as opções de otimização.
+
+---
+
+## **📌 Destaques Interativos**
+### **1️⃣ Interface Visual (Streamlit)**  
+Uma interface intuitiva e fácil de usar para:  
+- **Explorar a malha aérea:** Visualização gráfica dos aeroportos e rotas.  
+- **Simular rotas:** Teste em tempo real dos algoritmos (Dijkstra e A*).  
+
+### **2️⃣ Gráficos e Visualizações**  
+- **Mapa de rotas:** Representação clara e precisa da malha aérea.  
+- **Comparação de algoritmos:** Visualizações interativas para comparar custos e distâncias.
+
+---
+
+## **🌟 Impacto e Aplicabilidade**
+Este projeto apresenta um sistema robusto para o planejamento e otimização de rotas aéreas, com aplicações em:  
+- **Empresas aéreas:** Redução de custos e otimização operacional.  
+- **Logística de transporte:** Planejamento eficiente de rotas de carga.  
+- **Academia:** Base para estudos avançados em grafos e transporte aéreo.  
+
+### **🚀 Próximos Passos**
+- Adicionar **previsão de condições climáticas** na análise das rotas.  
+- Integrar dados reais de tráfego aéreo para testes em cenários reais.
